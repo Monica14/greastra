@@ -1,0 +1,137 @@
+[INFO] logger started at Sun Jul 23 02:00:27 UTC 2023
+[INFO] executable name: C:\Program Files (x86)\Greytip Astra\uninstall.exe
+[INFO] install4j version: 7.0.6 (build 7181)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Program Files (x86)\Greytip Astra\...
+sun.boot.library.path=c:\program files (x86)\greytip astra\...
+exe4j.semaphoreName=Local\c:_program_files_(x86)_greytip_...
+java.vm.version=25.202-b08
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=US
+sun.os.patch.level=
+install4j.exeDir=C:\Program Files (x86)\Greytip Astra\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Program Files (x86)
+java.runtime.version=1.8.0_202-b08
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\program files (x86)\greytip astra\...
+os.arch=x86
+java.io.tmpdir=C:\Windows\TEMP\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=
+os.name=Windows Server 2016
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Program Files (x86)\Greytip Astra\...
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot Client Compiler
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Windows\system32\config\systemprofile
+user.timezone=UTC
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=EC2AMAZ-GC75RNU$
+java.class.path=C:\Program Files (x86)\Greytip Astra\...
+install4j.dontUninstallServices=false
+windel.logfile=C:\Windows\TEMP\e4j4E65.tmp_dir169007...
+java.vm.specification.version=1.8
+sun.arch.data.model=32
+java.home=c:\program files (x86)\greytip astra\jre
+sun.java.command=C:\Program Files (x86)\Greytip Astra\...
+install4j.upgradeUninstall=true
+exe4j.launchName=C:\PROGRA~2\GREYTI~1\UNINST~1.EXE
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=0
+java.version=1.8.0_202
+java.ext.dirs=c:\program files (x86)\greytip astra\...
+sun.boot.class.path=c:\program files (x86)\greytip astra\...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Program Files (x86)\Greytip Astra\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+install4j.alternativeLogfile=C:\Windows\TEMP\i4j_log_uninstaller52...
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 18]: Execute action
+       Property excludedVariables: null
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: true
+       Variable changed: sys.programGroupName=Greytip Astra[class java.lang.String]
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Variable changed: sys.languageId=en[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.installationDir=C:\Program Files (x86)\Greytip Astra[class java.lang.String]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+       Variable changed: astra.version=4.0.7[class java.lang.String]
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RequireInstallerPrivilegesAction [ID 306]: Execute action
+       Property failIfNotObtained: true
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 12]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 13]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 13]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 14]: Show screen
+[INFO] com.install4j.runtime.beans.actions.misc.RunExecutableAction [ID 215]: Execute action
+       Property arguments: [logging of arguments is disabled]
+       Property environmentVariables: {}
+       Property executable: greytipastra.exe
+       Property returnCodeVariable: 
+       Property rollbackArguments: null
+       Property rollbackExecutable: null
+       Property rollbackWorkingDirectory: null
+       Property stderrFile: null
+       Property stderrRedirectionMode: No redirection
+       Property stderrVariableName: 
+       Property stdinFile: null
+       Property stdinRedirectionMode: No redirection
+       Property stdinString: 
+       Property stdoutFile: null
+       Property stdoutRedirectionMode: No redirection
+       Property stdoutVariableName: 
+       Property timeout: 0
+       Property workingDirectory: .
+       Property failOnStderrFileError: false
+       Property failOnStdinFileError: false
+       Property failOnStdoutFileError: false
+       Property includeParentEnvironmentVariables: true
+       Property keepConsoleWindow: false
+       Property logArguments: false
+       Property rollbackSupported: false
+       Property showWindowsConsole: false
+       Property useRollbackExecutable: false
+       Property wait: true
+       Property waitForStreams: true
+       used working dir: C:\Program Files (x86)\Greytip Astra\.
+       execute using batch file
+       Execute action successful after 578 ms
+[INFO] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 15]: Execute action
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: executing auto uninstall
+[INFO] com.install4j.runtime.installer.helper.fileinst.FileRemover: postponing deletion of C:\Program Files (x86)\Greytip Astra\.install4j\i4jruntime.jar
+       postponing deletion of C:\Program Files (x86)\Greytip Astra\.install4j\user.jar
+[INFO] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 15]: Execute action successful after 297 ms
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 14]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallSuccessScreen [ID 16]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallSuccessScreen [ID 16]: command: finish
+       cleaning up
+       Finished

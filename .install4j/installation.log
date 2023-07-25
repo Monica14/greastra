@@ -1,0 +1,738 @@
+[INFO] logger started at Sun Jul 23 02:00:25 UTC 2023
+[INFO] executable name: C:\Windows\SysWOW64\config\systemprofile\AppData\Local\install4j\update\OTI0NC01Njk5LTI3NjYtNzQwMQ==\BPfICfJFW4uWU7ztzKRqXWvZ8a8=\GreytipAstra_windows_4_0_8.exe
+[INFO] install4j version: 7.0.6 (build 7181)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=C:\Windows\SysWOW64\config\systemprof...
+sun.boot.library.path=c:\windows\temp\e4j4e65.tmp_dir169007...
+exe4j.semaphoreName=Local\c:_windows_syswow64_config_syst...
+java.vm.version=25.202-b08
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=US
+sun.os.patch.level=
+install4j.exeDir=C:\Windows\SysWOW64\config\systemprof...
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=C:\Windows\TEMP\e4j4E65.tmp_dir169007...
+java.runtime.version=1.8.0_202-b08
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=c:\windows\temp\e4j4e65.tmp_dir169007...
+os.arch=x86
+java.io.tmpdir=C:\Windows\TEMP\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=C:\Windows\TEMP\e4j4E65.tmp_dir169007...
+os.name=Windows Server 2016
+sun.java2d.noddraw=true
+sun.jnu.encoding=Cp1252
+java.library.path=C:\Windows\TEMP\e4j4E65.tmp_dir169007...
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot Client Compiler
+install4j.language=en
+exe4j.isInstall4j=true
+os.version=10.0
+install4j.updateStorageDir=C:\Windows\system32\config\systemprof...
+user.home=C:\Windows\system32\config\systemprofile
+user.timezone=UTC
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=EC2AMAZ-GC75RNU$
+java.class.path=C:\Windows\TEMP\e4j4E65.tmp_dir169007...
+java.vm.specification.version=1.8
+sun.arch.data.model=32
+java.home=c:\windows\temp\e4j4e65.tmp_dir169007...
+sun.java.command=C:\Windows\SysWOW64\config\systemprof...
+exe4j.launchName=C:\Windows\system32\config\systemprof...
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=45656026
+java.version=1.8.0_202
+java.ext.dirs=c:\windows\temp\e4j4e65.tmp_dir169007...
+sun.boot.class.path=c:\windows\temp\e4j4e65.tmp_dir169007...
+java.vendor=Oracle Corporation
+install4j.appDir=C:\Windows\Temp\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+install4j.lockFile=C:\Windows\system32\config\systemprof...
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] my modules file null, null
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 304]: Execute action
+       Property allRequested: false
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: true
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: false
+       Property rollbackSupported: false
+       Property updateInstallationDirectory: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 3]: Show screen
+       checking writable with maximum
+       checking writable with maximum
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 929]: Execute action
+       Property script: com.install4j.script.I4jScript_Internal_5
+       Property variableName: astra.version
+       Property failIfNull: false
+       Property onlyIfUndefined: false
+       Property responseFileVariable: true
+       Property rollbackSupported: false
+       Variable changed: astra.version=4.0.8[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 4]: Execute action
+       Property excludedVariables: [sys.installationDir]
+       Property file: null
+       Property overwriteStrategy: Do not overwrite command line
+       Property registerForResponseFile: true
+       Property rollbackSupported: true
+       Variable changed: sys.programGroupName=Greytip Astra[class java.lang.String]
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Variable changed: sys.languageId=en[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+       Variable changed: astra.version=4.0.7[class java.lang.String]
+       Execute action successful after 15 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 3]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 463]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FormScreen [ID 463]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 6]: Show screen
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.programGroupName=Greytip Astra[class java.lang.String]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen [ID 6]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 7]: Show screen
+[INFO] com.install4j.runtime.beans.actions.UninstallPreviousAction [ID 726]: Execute action
+       Property installationDirectory: null
+       Property installerVariables: {}
+       Property logFiles: []
+       Property onlyIfSameApplicationId: true
+       Property rollbackSupported: false
+       Property uninstallServices: true
+       checking running processes
+       checking running processes ok
+       previous installation id at C:\Program Files (x86)\Greytip Astra: 9244-5699-2766-7401
+       starting uninstaller
+       execute using batch file
+       native uninstaller process returned 0
+       deleting remaining files from i4j_undel.log.tmp, true
+       deleting C:\Program Files (x86)\Greytip Astra\uninstall.exe
+       deleting C:\Program Files (x86)\Greytip Astra\.install4j\i4jruntime.jar
+       deleting C:\Program Files (x86)\Greytip Astra\.install4j\i4jinst.dll
+       deleting C:\Program Files (x86)\Greytip Astra\.install4j\user.jar
+       deleting C:\Program Files (x86)\Greytip Astra\.install4j
+       could not delete C:\Program Files (x86)\Greytip Astra\.install4j
+       deleting C:\Program Files (x86)\Greytip Astra
+       could not delete C:\Program Files (x86)\Greytip Astra
+       deleting C:\Program Files (x86)\Greytip Astra\jre\bin\client
+       could not delete C:\Program Files (x86)\Greytip Astra\jre\bin\client
+       see uninstallPrevious.log for the log file of the uninstaller
+       Variable changed: sys.undeletedUninstallFiles=null
+       finished
+       Execute action successful after 10392 ms
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 8]: Execute action
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property sizeCalculatorScript: null
+       Property checkFreeSpace: true
+       Property delay: false
+       Property installRuntime: true
+       Property rollbackSupported: true
+       Property saveDownloadedFiles: false
+       Property showFileNames: true
+       Property triggerReboot: true
+       Property updateBundledJre: true
+       Property validateApplicationId: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-console-l1-1-0.dll; size: 18752 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:07 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-datetime-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-debug-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-errorhandling-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-file-l1-1-0.dll; size: 21824 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-file-l1-2-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-file-l2-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-handle-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-heap-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-interlocked-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-libraryloader-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-localization-l1-2-0.dll; size: 20792 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-memory-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-namedpipe-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-processenvironment-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-processthreads-l1-1-0.dll; size: 20288 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-processthreads-l1-1-1.dll; size: 18752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-profile-l1-1-0.dll; size: 17728 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-rtlsupport-l1-1-0.dll; size: 17728 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:08 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-string-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-synch-l1-1-0.dll; size: 20288 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-synch-l1-2-0.dll; size: 18744 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-sysinfo-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-timezone-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-core-util-l1-1-0.dll; size: 18240 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-conio-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-convert-l1-1-0.dll; size: 22336 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-environment-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-filesystem-l1-1-0.dll; size: 20288 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-heap-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-locale-l1-1-0.dll; size: 18752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-math-l1-1-0.dll; size: 28984 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-multibyte-l1-1-0.dll; size: 26432 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-private-l1-1-0.dll; size: 73024 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-process-l1-1-0.dll; size: 19264 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-runtime-l1-1-0.dll; size: 22848 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-stdio-l1-1-0.dll; size: 24384 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-string-l1-1-0.dll; size: 24384 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-time-l1-1-0.dll; size: 20800 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\api-ms-win-crt-utility-l1-1-0.dll; size: 18744 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\awt.dll; size: 1187192 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\bci.dll; size: 16248 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\client\jvm.dll; size: 3893624 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\client\Xusage.txt; size: 1423 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\concrt140.dll; size: 243016 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\dcpr.dll; size: 143736 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\decora_sse.dll; size: 65912 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\deploy.dll; size: 450424 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\dt_shmem.dll; size: 25976 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\dt_socket.dll; size: 22392 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:09 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\eula.dll; size: 109944 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\fontmanager.dll; size: 224120 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\fxplugins.dll; size: 153976 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\glass.dll; size: 216952 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\glib-lite.dll; size: 579448 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\gstreamer-lite.dll; size: 737656 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\hprof.dll; size: 133496 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\instrument.dll; size: 117112 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\j2pcsc.dll; size: 17272 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\j2pkcs11.dll; size: 52088 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jaas_nt.dll; size: 20344 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jabswitch.exe; size: 31608 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\java-rmi.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\java.dll; size: 126840 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\java.exe; size: 192376 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\JavaAccessBridge-32.dll; size: 128888 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\JavaAccessBridge.dll; size: 128376 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\javacpl.cpl; size: 162816 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\javacpl.exe; size: 74616 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\javafx_font.dll; size: 58744 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\javafx_font_t2k.dll; size: 448376 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\javafx_iio.dll; size: 137080 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\javaw.exe; size: 192376 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\java_crw_demo.dll; size: 24440 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jawt.dll; size: 14712 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:10 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\JAWTAccessBridge-32.dll; size: 15736 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\JAWTAccessBridge.dll; size: 15736 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jdwp.dll; size: 165752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jfr.dll; size: 23928 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jfxmedia.dll; size: 117624 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jfxwebkit.dll; size: 53317496 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jjs.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jli.dll; size: 160120 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jp2iexp.dll; size: 215416 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jp2launcher.exe; size: 93048 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jp2native.dll; size: 19832 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:11 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jp2ssv.dll; size: 194424 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jpeg.dll; size: 147320 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jsdt.dll; size: 17272 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jsound.dll; size: 31608 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\jsoundds.dll; size: 28536 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\keytool.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\kinit.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\klist.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\ktab.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\lcms.dll; size: 192888 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\management.dll; size: 34168 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\mlib_image.dll; size: 575352 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\msvcp140.dll; size: 438080 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\msvcr100.dll; size: 773968 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\net.dll; size: 81784 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\nio.dll; size: 52088 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\npt.dll; size: 18296 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\orbd.exe; size: 17272 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\pack200.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\policytool.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\prism_common.dll; size: 54648 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\prism_d3d.dll; size: 117112 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\prism_sw.dll; size: 87928 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\resource.dll; size: 15736 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\rmid.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\rmiregistry.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\servertool.exe; size: 16760 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\splashscreen.dll; size: 174456 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\ssv.dll; size: 480120 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\ssvagent.exe; size: 57720 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\sunec.dll; size: 125304 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\sunmscapi.dll; size: 27512 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:12 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\t2k.dll; size: 198008 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\tnameserv.exe; size: 17272 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\ucrtbase.dll; size: 1147712 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\unpack.dll; size: 66424 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\unpack200.exe; size: 161144 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\vcruntime140.dll; size: 83792 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\verify.dll; size: 40312 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\w2k_lsa_auth.dll; size: 22392 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\WindowsAccessBridge-32.dll; size: 99192 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\WindowsAccessBridge.dll; size: 97144 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\wsdetect.dll; size: 165752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\bin\zip.dll; size: 71544 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\COPYRIGHT; size: 3244 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\accessibility.properties; size: 149 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\calendars.properties; size: 1378 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\charsets.jar; size: 3036922 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:15 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\classlist; size: 84355 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:12 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\cmm\CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\cmm\GRAY.pf; size: 632 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\cmm\LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\cmm\PYCC.pf; size: 274474 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\cmm\sRGB.pf; size: 3144 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\content-types.properties; size: 5548 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\currency.data; size: 4134 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\ffjcext.zip; size: 14156 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages.properties; size: 2860 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_de.properties; size: 3306 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_es.properties; size: 3600 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_fr.properties; size: 3409 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:13 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_it.properties; size: 3223 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_ko.properties; size: 5712 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_pt_BR.properties; size: 3285 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_sv.properties; size: 3384 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\splash.gif; size: 8590 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\splash@2x.gif; size: 15276 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\splash_11-lic.gif; size: 7805 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy\splash_11@2x-lic.gif; size: 12250 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\deploy.jar; size: 5046565 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:16 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\access-bridge-32.jar; size: 195773 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:20 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\access-bridge.jar; size: 195768 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\cldrdata.jar; size: 3837830 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:21 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\dnsns.jar; size: 8150 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\jaccess.jar; size: 43839 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\jfxrt.jar; size: 18214982 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:22 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\localedata.jar; size: 2204296 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\meta-index; size: 1511 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:13 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\nashorn.jar; size: 1983134 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:22 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\sunec.jar; size: 41672 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:13 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\sunjce_provider.jar; size: 279326 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\sunmscapi.jar; size: 33138 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\sunpkcs11.jar; size: 250218 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\ext\zipfs.jar; size: 67503 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:23 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\flavormap.properties; size: 3928 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:13 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fontconfig.bfc; size: 3778 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fontconfig.properties.src; size: 10578 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:14 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\fonts\LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\i386\jvm.cfg; size: 623 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\cursors.properties; size: 1280 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\win32_CopyDrop32x32.gif; size: 165 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\win32_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\win32_LinkDrop32x32.gif; size: 168 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\win32_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\win32_MoveDrop32x32.gif; size: 147 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\images\cursors\win32_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\javafx.properties; size: 56 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\jce.jar; size: 115646 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\jfr\default.jfc; size: 20109 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\jfr\profile.jfc; size: 20065 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\jfr.jar; size: 558903 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:16 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\jfxswt.jar; size: 33473 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\jsse.jar; size: 609210 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:14 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\logging.properties; size: 2455 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\management\jmxremote.access; size: 3998 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\management\jmxremote.password.template; size: 2856 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\management\management.properties; size: 14630 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\management\snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:17 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\meta-index; size: 2126 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:14 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\net.properties; size: 5352 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\plugin.jar; size: 1924073 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:17 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\psfont.properties.ja; size: 2796 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:14 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\psfontj2d.properties; size: 10393 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\resources.jar; size: 3492446 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:17 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\rt.jar; size: 54662515 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:19 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\blacklist; size: 4054 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:00:15 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\blacklisted.certs; size: 1253 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\cacerts; size: 104430 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\java.policy; size: 2466 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\java.security; size: 42622 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\javaws.policy; size: 98 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\policy\limited\local_policy.jar; size: 3527 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\policy\limited\US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\policy\unlimited\local_policy.jar; size: 3035 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\policy\unlimited\US_export_policy.jar; size: 3023 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\security\trusted.libraries; size: 0 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\sound.properties; size: 1210 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\tzdb.dat; size: 105734 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\lib\tzmappings; size: 9577 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\LICENSE; size: 40 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\README.txt; size: 46 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\release; size: 425 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 112724 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\THIRDPARTYLICENSEREADME.txt; size: 153824 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\jre\Welcome.html; size: 955 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\bgupdater.exe; size: 678400 bytes; exists: false
+       File options set to: [fileTime: Tue Jun 27 04:56:50 UTC 2023, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4jdel.exe; size: 91120 bytes; exists: false
+       File options set to: [fileTime: Tue Jun 27 04:56:50 UTC 2023, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4jinst.dll; size: 147456 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\asca-4.0.8.jar; size: 113583 bytes; exists: false
+       File options set to: [fileTime: Tue Jun 27 04:56:50 UTC 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\greytipastra.exe; size: 77312 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\installService.bat; size: 1779 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\FastInfoset-1.2.15.jar; size: 219071 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\ant-1.8.2.jar; size: 1033368 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\ant-launcher-1.8.2.jar; size: 9225 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\antlr-2.7.5.jar; size: 335557 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\asm-3.3.1.jar; size: 38896 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\bcmail-jdk14-138.jar; size: 192035 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\bcprov-jdk14-138.jar; size: 1551468 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\byte-buddy-1.11.12.jar; size: 1113018 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\cglib-2.2.2.jar; size: 126605 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\checker-qual-3.5.0.jar; size: 48717 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\classmate-1.5.1.jar; size: 45186 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-codec-1.7.jar; size: 346672 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-collections-3.2.2.jar; size: 275687 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-compress-1.10.jar; size: 269667 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-daemon-1.0.15.jar; size: 26718 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-fileupload-1.3.3.jar; size: 53235 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-io-2.1.jar; size: 112902 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-lang-2.1.jar; size: 156270 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-lang3-3.1.jar; size: 255338 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\commons-logging-1.1.3.jar; size: 68824 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\datapipeline-2.2.7.jar; size: 294256 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\derby-10.9.1.0.jar; size: 1639469 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\dom4j-1.6.1.jar; size: 173688 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\dom4j-2.1.3.jar; size: 183122 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\freemarker-2.3.28.jar; size: 768120 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\hibernate-commons-annotations-5.0.5.Final.jar; size: 32203 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\hibernate-core-5.3.22.Final.jar; size: 4122181 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\hibernate-ehcache-5.3.22.Final.jar; size: 81165 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\hsqldb-2.4.1.jar; size: 1245638 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\httpclient-4.3.3.jar; size: 268963 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\httpcore-4.3.2.jar; size: 148285 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\istack-commons-runtime-3.0.7.jar; size: 20788 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\itext-2.0.7.jar; size: 1207623 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jackcess-2.2.3.jar; size: 2526545 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jackson-annotations-2.9.4.jar; size: 31520 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jackson-core-2.9.4.jar; size: 236837 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jackson-databind-2.9.4.jar; size: 678312 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jackson-datatype-hibernate5-2.9.4.jar; size: 18575 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jackson-datatype-joda-2.0.4.jar; size: 14346 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jackson-module-jaxb-annotations-2.9.4.jar; size: 26264 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jandex-2.0.5.Final.jar; size: 108447 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jasypt-1.6.jar; size: 77756 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\javassist-3.12.1.GA.jar; size: 358445 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\javassist-3.27.0-GA.jar; size: 434147 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\javax.activation-api-1.2.0.jar; size: 67342 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\javax.persistence-api-2.2.jar; size: 386642 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\javax.servlet-api-3.1.0.jar; size: 113618 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jaxb-api-2.3.1.jar; size: 122107 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jaxb-runtime-2.3.1.jar; size: 854577 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jboss-logging-3.4.2.Final.jar; size: 73742 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jboss-transaction-api_1.2_spec-1.1.1.Final.jar; size: 48488 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-http-9.4.44.v20210927.jar; size: 170761 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-io-9.4.44.v20210927.jar; size: 115467 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-security-9.4.44.v20210927.jar; size: 88831 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-server-9.4.44.v20210927.jar; size: 437837 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-servlet-9.4.44.v20210927.jar; size: 107995 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-util-9.4.44.v20210927.jar; size: 360944 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-util-ajax-9.4.44.v20210927.jar; size: 60817 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-webapp-9.4.44.v20210927.jar; size: 141215 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jetty-xml-9.4.44.v20210927.jar; size: 100763 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\joda-time-2.8.2.jar; size: 431251 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jta-1.1.jar; size: 20110 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jtds-1.2.2.jar; size: 248731 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\junit-3.8.1.jar; size: 59024 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\jxl-2.6.12.jar; size: 415193 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\log4j-over-slf4j-1.6.6.jar; size: 12323 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\logback-classic-1.2.9.jar; size: 141558 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\logback-core-1.2.9.jar; size: 224742 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\mysql-connector-java-8.0.11.jar; size: 1322293 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\ojdbc-ojdbc4.jar; size: 1730499 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\poi-3.8.jar; size: 1089383 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\poi-excelant-3.8.jar; size: 41576 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\poi-ooxml-3.8.jar; size: 1066524 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\poi-ooxml-schemas-3.8.jar; size: 7479690 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\poi-scratchpad-3.8.jar; size: 821905 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\postgresql-42.4.0.jar; size: 725133 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\protobuf-java-2.6.0.jar; size: 344697 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\slf4j-api-1.7.32.jar; size: 32420 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-aop-5.3.18.jar; size: 198977 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-beans-5.3.18.jar; size: 448813 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-context-5.3.18.jar; size: 685541 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-context-support-5.3.18.jar; size: 117386 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-core-5.3.18.jar; size: 722478 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-expression-5.3.18.jar; size: 166586 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-jcl-5.3.18.jar; size: 25134 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-jdbc-5.3.18.jar; size: 249096 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-orm-5.3.18.jar; size: 130134 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-tx-5.3.18.jar; size: 181379 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-web-5.3.18.jar; size: 775495 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\spring-webmvc-5.3.18.jar; size: 659790 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\sqljdbc4-4.0.jar; size: 584207 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\stax-api-1.0.1.jar; size: 12031 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\stax-ex-1.8.jar; size: 35074 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\sysout-over-slf4j-1.0.2.jar; size: 26693 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\txw2-2.3.1.jar; size: 40489 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\ucanaccess-4.0.4.1.jar; size: 304219 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\xml-apis-1.0.b2.jar; size: 52526 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\lib\xmlbeans-2.3.0.jar; size: 1716285 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst; size: 7697 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst; size: 13440 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst; size: 96 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst; size: 252 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\uninstall.exe; size: 678400 bytes; exists: false
+       File options set to: [fileTime: Tue Jun 27 04:56:50 UTC 2023, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\uninstallService.bat; size: 91 bytes; exists: false
+       File options set to: [fileTime: Tue Jun 27 04:56:50 UTC 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\freemarker\bottom-bar.ftl; size: 34 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\freemarker\footer-resources.ftl; size: 1035 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\freemarker\header-resources.ftl; size: 267 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\freemarker\macro.ftl; size: 7046 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\freemarker\menu.ftl; size: 2326 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\freemarker\top-bar.ftl; size: 586 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\home.ftl; size: 2420 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\loader\authorizationInfo.ftl; size: 396 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\loader\backSweepInfo.ftl; size: 1311 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\loader\cursorInfo.ftl; size: 1773 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\loader\loaderInfo.ftl; size: 3743 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\loader\setting.ftl; size: 890 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\loader\setup.ftl; size: 8061 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\templates\login.ftl; size: 2017 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\WEB-INF\web.xml; size: 2611 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\favicon.png; size: 3600 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\bootstrap\bootstrap.min.js; size: 25568 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\bootstrap\css\bootstrap.min.css; size: 98174 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\bootstrap\img\glyphicons-halflings-white.png; size: 8777 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\bootstrap\img\glyphicons-halflings.png; size: 12799 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\18-x18-icon.png; size: 693 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\32-x-32-icon.png; size: 1372 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\Info-Shadow_1300-x-60.png; size: 20319 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\footer-bg.png; size: 55775 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\greytip-online-logo.png; size: 6129 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\gt-astra-logo.png; size: 6261 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\gta-big.png; size: 10067 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\gta-small.png; size: 1879 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\inner-bg.png; size: 638 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\raindrops.png; size: 12009 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\settings-icon.png; size: 1214 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\setup-bg.jpg; size: 1957371 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\status-icons.png; size: 10919 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\images\top-band.png; size: 65071 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_flat_0_aaaaaa_40x100.png; size: 180 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_flat_75_ffffff_40x100.png; size: 178 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_glass_55_fbf9ee_1x400.png; size: 120 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png; size: 105 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_glass_75_dadada_1x400.png; size: 111 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_glass_75_e6e6e6_1x400.png; size: 110 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_glass_95_fef1ec_1x400.png; size: 119 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-bg_highlight-soft_75_cccccc_1x100.png; size: 101 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-icons_222222_256x240.png; size: 4369 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-icons_2e83ff_256x240.png; size: 4369 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-icons_454545_256x240.png; size: 4369 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-icons_888888_256x240.png; size: 4369 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\images\ui-icons_cd0a0a_256x240.png; size: 4369 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\jquery-ui-1.9.0.custom.min.css; size: 26066 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\jquery-ui\jquery-ui-1.9.0.custom.min.js; size: 235850 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jquery-1.8.1.min.js; size: 92793 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jquery-timeago.js; size: 4921 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jquery.cookies.2.2.0.min.js; size: 5513 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jquery.form.js; size: 39726 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jquery.validate.additional-methods.min.js; size: 10727 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jquery.validate.min.js; size: 21496 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jquerymx-3.2.custom.js; size: 42896 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\json2.js; size: 18008 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\jsrender.js; size: 37974 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\loader\backSweepInfo.js; size: 3801 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\loader\cursorInfo.js; size: 2140 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\loader\home.js; size: 5380 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\loader\loaderInfo.js; size: 1149 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\loader\setting.js; size: 1681 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\loader\setup.js; size: 39285 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\js\main\login.js; size: 1988 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\select2\select2.css; size: 18206 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\select2\select2.js; size: 92234 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\select2\select2.min.js; size: 35537 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\select2\select2.png; size: 613 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\select2\select2x2.png; size: 845 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\select2\spinner.gif; size: 1849 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\styles.css; size: 1785 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\styles.less; size: 2091 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\webapp\resources\utils.js; size: 10364 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\inst_jre.cfg; size: 47 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:01:03 UTC 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\pref_jre.cfg; size: 42 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:01:03 UTC 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4jruntime.jar; size: 2244778 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:01:03 UTC 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\MessagesDefault; size: 33678 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4jparams.conf; size: 102171 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\stats.properties; size: 1397 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\uninstallPrevious.log; size: 6722 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\launchers.xml; size: 66 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\user.jar; size: 20946 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_0_1ou2k3i.utf8; size: 33678 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_1_1ou2k3i_x7nby6.png; size: 756 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_2_1ou2k3i_vd2dea.png; size: 1187 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_3_1ou2k3i_un9apv.png; size: 1884 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_4_1ou2k3i_1xth8wx.png; size: 4609 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_5_1ou2k3i_259ij1.png; size: 8252 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_6_1ou2k3i_18gg8kx.png; size: 9202 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_6_1ou2k3i_18gg8kx@2x.png; size: 15419 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\i4j_extf_7_1ou2k3i.jpg; size: 82242 bytes; exists: false
+       Install file: C:\Program Files (x86)\Greytip Astra\.install4j\installer.ico; size: 15749 bytes; exists: false
+       Backing up C:\Program Files (x86)\Greytip Astra\.install4j\response.varfile
+       Execute action successful after 27385 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 9]: Execute action
+       Property categories: Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: []
+       Property programGroupName: Greytip Astra
+       Property uninstallerMenuName: Greytip Astra Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: true
+       Property failForSymlinksNotCreated: false
+       Property rollbackSupported: true
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Variable changed: sys.symlinkDir=/usr/local/bin[class java.lang.String]
+       Install file: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Greytip Astra\Greytip Astra Uninstaller.lnk; size: 1888 bytes; exists: false
+       File options set to: [fileTime: Sun Jul 23 02:01:05 UTC 2023, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 1406 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 10]: Execute action
+       Property icon: null
+       Property iconSource: Installer icon
+       Property itemName: Greytip Astra 4.0.8
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RunExecutableAction [ID 182]: Execute action
+       Property arguments: [.]
+       Property environmentVariables: {}
+       Property executable: installService.bat
+       Property returnCodeVariable: 
+       Property rollbackArguments: null
+       Property rollbackExecutable: null
+       Property rollbackWorkingDirectory: null
+       Property stderrFile: stderr.txt
+       Property stderrRedirectionMode: To file
+       Property stderrVariableName: 
+       Property stdinFile: null
+       Property stdinRedirectionMode: No redirection
+       Property stdinString: 
+       Property stdoutFile: stdout.txt
+       Property stdoutRedirectionMode: To file
+       Property stdoutVariableName: 
+       Property timeout: 0
+       Property workingDirectory: .
+       Property failOnStderrFileError: false
+       Property failOnStdinFileError: false
+       Property failOnStdoutFileError: false
+       Property includeParentEnvironmentVariables: true
+       Property keepConsoleWindow: false
+       Property logArguments: true
+       Property rollbackSupported: false
+       Property showWindowsConsole: false
+       Property useRollbackExecutable: false
+       Property wait: true
+       Property waitForStreams: true
+       used working dir: C:\Program Files (x86)\Greytip Astra\.
+       execute using batch file
+       Execute action successful after 515 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RunExecutableAction [ID 269]: Execute action
+       Property arguments: [//ES//GreytipAstra]
+       Property environmentVariables: {}
+       Property executable: greytipastra.exe
+       Property returnCodeVariable: 
+       Property rollbackArguments: null
+       Property rollbackExecutable: null
+       Property rollbackWorkingDirectory: null
+       Property stderrFile: null
+       Property stderrRedirectionMode: No redirection
+       Property stderrVariableName: 
+       Property stdinFile: null
+       Property stdinRedirectionMode: No redirection
+       Property stdinString: 
+       Property stdoutFile: null
+       Property stdoutRedirectionMode: No redirection
+       Property stdoutVariableName: 
+       Property timeout: 0
+       Property workingDirectory: .
+       Property failOnStderrFileError: false
+       Property failOnStdinFileError: false
+       Property failOnStdoutFileError: false
+       Property includeParentEnvironmentVariables: true
+       Property keepConsoleWindow: false
+       Property logArguments: true
+       Property rollbackSupported: false
+       Property showWindowsConsole: false
+       Property useRollbackExecutable: false
+       Property wait: true
+       Property waitForStreams: true
+       used working dir: C:\Program Files (x86)\Greytip Astra\.
+       execute using batch file
+[INFO] com.install4j.runtime.installer.helper.launching.LaunchHelper: return value is 5
+[ERROR] com.install4j.runtime.beans.actions.misc.RunExecutableAction [ID 269]: return value is 5
+        Execute action not successful after 5328 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 7]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 11]: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 11]: command: finish
+       cleaning up
+       Finished

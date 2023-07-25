@@ -1,0 +1,15 @@
+[2023-07-23 02:01:05] [info]  Commons Daemon procrun (1.0.10.0 32-bit) started
+[2023-07-23 02:01:05] [info]  Service GreytipAstra name Greytip Astra 4.0.8
+[2023-07-23 02:01:05] [info]  Service 'GreytipAstra' installed
+[2023-07-23 02:01:05] [info]  Commons Daemon procrun finished
+[2023-07-23 02:01:06] [info]  Commons Daemon procrun (1.0.10.0 32-bit) started
+[2023-07-23 02:01:06] [info]  Starting service 'GreytipAstra' ...
+[2023-07-23 02:01:06] [info]  Commons Daemon procrun (1.0.10.0 32-bit) started
+[2023-07-23 02:01:06] [info]  Running 'GreytipAstra' Service...
+[2023-07-23 02:01:06] [info]  Starting service...
+[2023-07-23 02:01:11] [error] Failed to start 'GreytipAstra' service
+[2023-07-23 02:01:11] [error] The data area passed to a system call is too small.
+[2023-07-23 02:01:11] [info]  Start service finished.
+[2023-07-23 02:01:11] [error] Commons Daemon procrun failed with exit value: 5 (Failed to start service)
+[2023-07-23 02:01:11] [error] The data area passed to a system call is too small.
+[2023-07-23 02:01:12] [info]  Service started in 6171 ms.

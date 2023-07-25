@@ -1,0 +1,126 @@
+@body-bg-color: #F0EFF7;
+@container-border-color: #74BEEA;
+@error-bg-color: #FCC4C4;
+@error-fg-color: #000;
+
+body {
+	background: @body-bg-color url(images/inner-bg.png) repeat-x;
+}
+
+header.masthead {
+   margin: 40px 0 0 0;
+   background: transparent url(images/top-band.png) no-repeat bottom;
+   padding: 30px;
+   height: 60px;
+   text-align: center;
+   color: white;
+}   
+
+header.masthead p {
+   font-size: 1.2em;
+   color: #DFDFDF;
+}
+
+footer.main {
+   background: url(images/footer-bg.png) no-repeat top;
+   margin-top: -35px;
+   height: 250px;
+}
+
+   
+.outer {
+	background: transparent url(images/raindrops.png) repeat;
+}
+
+.inner-page-container {
+	background-color: white;
+	border: 2px solid @container-border-color;
+	border-radius: 15px;
+}
+
+.setup-container {
+	background-color: white;
+	border: 2px solid @container-border-color;
+	border-radius: 15px;
+	padding: 10px 50px 10px 50px;
+}
+
+p.bold {
+	font-weight: bold;
+}
+
+.content {
+	margin-top: 10px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+.ajax-message-wrapper {
+	position: relative;
+    width: 100%;
+}
+
+#ajax-messages {
+	display: none;
+	position: fixed;
+    right: 5px;
+	top: 45px;
+	z-index: 100;
+}
+
+#status-table {
+  background-color: @container-border-color;
+  color: white;
+}
+
+.td-50 {
+  width: 50%;
+} 
+
+#status-table div.title {
+  font-size: 0.9em;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+#status-table div.status {
+}
+
+#status-table div.small {
+   font-size: 0.8em;
+   color: #292929;
+}
+
+#status-table div.status-outer {
+  padding-left: 45px;
+}
+   
+.error {
+   background-color: @error-bg-color;
+   color: @error-fg-color;
+}
+      
+      
+.status-icon {
+    width: 41px;
+    height: 41px;
+    background: url(images/status-icons.png) no-repeat 500px 500px;
+}
+
+.swipe-ok {
+    background-position: -1px -1px;
+}
+
+.cloud-ok {
+    background-position: -100px -1px;
+}
+
+.swipe-error {
+    background-position: -49px -1px;
+}
+
+.cloud-error {
+    background-position: -149px -1px;
+}
+       
